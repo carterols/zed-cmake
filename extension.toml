@@ -1,0 +1,11 @@
+id = "cmake"
+name = "CMake"
+description = "CMake support."
+version = "0.0.1"
+schema_version = 1
+authors = ["Carter Olsen <carterols@github.com>"]
+repository = "https://github.com/zed-industries/zed"
+
+[grammars.cmake]
+repository = "https://github.com/uyha/tree-sitter-cmake"
+commit = "20ffd6d3b4da1acdbf2d08204b2130a5b2f7c4b3"
